@@ -30,7 +30,6 @@ function toggleMenu() {
 menuBtn.addEventListener('click', toggleMenu);
 closeBtn.addEventListener('click', toggleMenu);
 
-// Close menu when clicking on any menu item
 const navItems = document.querySelectorAll('.nav-items div');
 navItems.forEach(item => {
     item.addEventListener('click', () => {
@@ -38,7 +37,6 @@ navItems.forEach(item => {
     });
 });
 
-// Handle theme toggle click separately to prevent menu from closing
 const themeToggle = document.querySelector('.theme-toggle');
 themeToggle.addEventListener('click', (e) => {
     e.stopPropagation();
