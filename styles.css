@@ -357,7 +357,7 @@
   }
 }
 
-/* Mobile Responsive Styles */
+
 @media screen and (max-width: 768px) {
   .heroSection {
     flex-direction: column;
@@ -409,7 +409,6 @@
     height: 320px;
   }
 
-  /* Adjust icon animations for mobile */
   .iconDots {
     width: 15px;
   }
@@ -623,7 +622,6 @@
   color: #e84949;
 }
 
-/* Mobile Responsive Styles */
 @media screen and (max-width: 768px) {
   .projectTitle {
     font-size: 50px;
@@ -685,8 +683,7 @@
   .icon {
     font-size: 28px;
   }
-
-  /* Mobile hover effects */
+  
   .projectCard::before {
     transform: scaleX(1);
     opacity: 0;
@@ -910,10 +907,6 @@
   flex-direction: column;
   gap: 30px;
 }
-/* 
-.formFieldContainer{
-  width: 100%;
-} */
 
 .formField {
   width: 100%;
