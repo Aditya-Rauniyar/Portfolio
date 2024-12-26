@@ -1,1 +1,1 @@
-# Portfolio
+This is my responsive portfolio website, built to showcase my projects, skills, and contact information. It features a light and dark theme toggle for a customizable viewing experience and is fully responsive, ensuring a seamless look across all devices. The site includes sections for highlighting my work, technical skills, and a contact form to easily get in touch with me. Developed using HTML, CSS, and JavaScript, I also incorporated Font Awesome and Boxicons to enhance the design with clean and modern icons.
